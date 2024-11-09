@@ -1,0 +1,33 @@
+@import "@/assets/styles/abstract/_all";
+
+.month {
+    border-top: $border;
+    padding-block: 12px;
+}
+
+.monthContent {
+    height: 100%;
+    border-right: $border;
+    padding: 12px;
+
+    &.first {
+        padding-left: 0;
+    }
+
+    &.last {
+        border-right: none;
+        padding-right: 0;
+    }
+}
+
+.monthName {
+    font-size: $fs-xl;
+    font-weight: $fw-extra-light;
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    row-gap: 8px;
+}

@@ -1,0 +1,16 @@
+@import "@/assets/styles/abstract/_all";
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-top: $border;
+    padding: 24px 0;
+}
+
+.copyright {
+    font-size: $fs-xs;
+    font-weight: $fw-extra-light;
+    color: $color-gray;
+}

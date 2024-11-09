@@ -1,0 +1,37 @@
+@import "@/assets/styles/abstract/_all";
+
+.event {
+    line-height: $lh-md;
+    border-radius: 16px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    padding: 4px 16px;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    &.meeting {
+        color: $color-event-meeting;
+        background-color: $color-event-meeting-bg;
+    }
+
+    &.conference {
+        color: $color-event-conference;
+        background-color: $color-event-conference-bg;
+    }
+
+    &.question {
+        color: $color-event-question;
+        background-color: $color-event-question-bg;
+    }
+
+    &.webinar {
+        color: $color-event-webinar;
+        background-color: $color-event-webinar-bg;
+    }
+
+    &.active {
+        color: $color-light;
+    }
+}

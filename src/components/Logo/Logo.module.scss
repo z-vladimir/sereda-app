@@ -1,0 +1,12 @@
+@import "@/assets/styles/abstract/_all";
+
+.logo {
+    font-size: $fs-xl;
+    font-weight: $fw-bold;
+    text-transform: uppercase;
+    color: $color-primary;
+
+    &.small {
+        font-size: $fs-lg;
+    }
+}

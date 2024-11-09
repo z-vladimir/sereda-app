@@ -1,0 +1,27 @@
+$color-light: #fffafb;
+$color-dark: #131315;
+$color-gray: #797979;
+$color-primary: #ff4e6b;
+
+// Events
+$color-event-meeting: $color-primary;
+$color-event-conference: #ffbb33;
+$color-event-question: #00cc66;
+$color-event-webinar: #4db4ff;
+
+$color-event-question-bg: rgba(
+    $color: $color-event-question,
+    $alpha: 16%,
+);
+$color-event-webinar-bg: rgba(
+    $color: $color-event-webinar,
+    $alpha: 16%,
+);
+$color-event-conference-bg: rgba(
+    $color: $color-event-conference,
+    $alpha: 16%,
+);
+$color-event-meeting-bg: rgba(
+    $color: $color-event-meeting,
+    $alpha: 16%,
+);

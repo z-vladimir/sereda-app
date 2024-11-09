@@ -1,0 +1,16 @@
+@import "@/assets/styles/abstract/_all";
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    margin-top: 24px;
+}
+
+.day {
+    font-weight: $fw-light;
+    line-height: $lh-xl;
+    color: $color-gray;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    height: 32px;
+}

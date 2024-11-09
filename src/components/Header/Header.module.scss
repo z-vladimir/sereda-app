@@ -1,0 +1,15 @@
+@import "@/assets/styles/abstract/_all";
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $color-dark;
+    z-index: $ui-index-4;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: $border;
+}

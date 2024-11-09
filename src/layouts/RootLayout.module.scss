@@ -1,0 +1,23 @@
+@import "@/assets/styles/abstract/_all";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: $container;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    @include media-breakpoint-up(md) {
+        padding: 0 24px;
+    }
+
+    @include media-breakpoint-up(xl) {
+        padding: 0;
+    }
+}
+
+.main {
+    flex-grow: 1;
+    margin-block: 40px;
+}

@@ -1,0 +1,25 @@
+@import "@/assets/styles/abstract/_all";
+
+.event {
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: $color-primary;
+
+    &.conference {
+        background-color: $color-event-conference;
+    }
+
+    &.question {
+        background-color: $color-event-question;
+    }
+
+    &.webinar {
+        background-color: $color-event-webinar;
+    }
+
+    &.meeting {
+        background-color: $color-event-meeting;
+    }
+}
