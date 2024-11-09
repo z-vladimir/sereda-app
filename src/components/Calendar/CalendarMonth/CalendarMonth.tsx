@@ -29,6 +29,7 @@ const CalendarMonth = ({ month, index }: CalendarMonthProps) => {
                     {month.dates.map((date, index) => (
                         <CalendarDate
                             key={`${month.name}-${date.date}-${index}`}
+                            index={`${month.name}-${date.date}-${index}`}
                             date={date}
                         />
                     ))}

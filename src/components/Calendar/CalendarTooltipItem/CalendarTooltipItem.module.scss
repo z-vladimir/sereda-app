@@ -1,0 +1,84 @@
+@import "@/assets/styles/abstract/_all";
+
+.wrapper {
+    display: grid;
+    gap: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.title {
+    font-weight: $fw-medium;
+    font-size: $fs-md;
+    line-height: $lh-lg;
+}
+
+.description {
+    font-weight: $fw-extra-light;
+    line-height: $lh-lg;
+}
+
+.place {
+    font-style: normal;
+    line-height: $lh-md;
+    color: $color-gray;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.date {
+    font-weight: $fw-extra-light;
+    line-height: $lh-md;
+    color: $color-primary;
+
+    &.meeting {
+        color: $color-event-meeting;
+    }
+
+    &.conference {
+        color: $color-event-conference;
+    }
+
+    &.question {
+        color: $color-event-question;
+    }
+
+    &.webinar {
+        color: $color-event-webinar;
+    }
+}
+
+.type {
+    border-radius: 16px;
+    padding: 4px 8px;
+
+    &.meeting {
+        color: $color-event-meeting;
+        background-color: $color-event-meeting-bg;
+    }
+
+    &.conference {
+        color: $color-event-conference;
+        background-color: $color-event-conference-bg;
+    }
+
+    &.question {
+        color: $color-event-question;
+        background-color: $color-event-question-bg;
+    }
+
+    &.webinar {
+        color: $color-event-webinar;
+        background-color: $color-event-webinar-bg;
+    }
+}

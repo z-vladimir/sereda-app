@@ -7,6 +7,16 @@
     justify-content: center;
     align-items: center;
     position: relative;
+
+    .tooltip {
+        width: 360px;
+        height: auto;
+        background-color: $color-dark;
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.4);
+        border-radius: 0;
+        z-index: $ui-index-6;
+        padding: 24px;
+    }
 }
 
 .dateButton {
